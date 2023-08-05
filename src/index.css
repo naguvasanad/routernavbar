@@ -1,0 +1,112 @@
+body{
+  margin: 0;
+  padding: 0;
+ background-image: url("https://picsum.photos/seed/picsum/200/300/");
+ background-repeat: no-repeat;
+ background-size: cover;
+  font-family: 'Open Sans',sans-serif;
+}
+
+.menu-logo h2{
+  color: black;
+  font-size: 28px;
+}
+h2:hover{
+ color: wheat;
+}
+.plant{
+  color: green;
+}
+
+.menu-logo h2 span{
+  font-size: 35px;
+}
+.icon{
+  display: none;
+}
+
+.menu-link ul li{
+  list-style-type: none;
+}
+.menu-icon ul li{
+  list-style-type: none;
+}
+
+.facebook{
+  color: darkslateblue;
+}
+
+.git{
+  color: black;
+}
+
+.twitter{
+  color: darkblue;
+}
+
+.parent{
+  background-image: linear-gradient(to right,blue,lightblue);
+  width: 100%;
+  height: 7rem;
+  display: grid;
+  grid-template-columns: 7rem 1fr 2fr 1fr 7rem;
+  box-shadow: 5px 10px 8px 10px #888888;
+}
+
+.menu-logo{
+  grid-column: 2/3;
+  display: grid;
+  justify-content: start;
+  align-items: center;
+}
+
+.menu-link ul{
+  height: 7rem;
+  grid-column: 3/4;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.menu-icon ul {
+  height: 7rem;
+  grid-column: 4/5;
+  display: grid;
+  grid-template-columns: 3fr repeat(3,1fr);
+  align-items: center;
+}
+
+.menu-icon ul li:first-child{
+  grid-column: 2/3;
+}
+
+.menu-icon ul li{
+ text-align: right;
+}
+
+.contact,.service,.accessor,.home{
+  padding: 5px 8px;
+  
+}
+ .home:hover{
+ background-color:cadetblue ;
+ border: 1px solid cadetblue;
+  border-radius: 2px;
+ }
+.contact:hover{
+  background-color:cadetblue ;
+ border: 1px solid cadetblue;
+  border-radius: 2px;
+}
+.service:hover{
+  background-color:cadetblue ;
+ border: 1px solid cadetblue;
+  border-radius: 2px;
+}
+.accessor:hover{
+  background-color:cadetblue ;
+ border: 1px solid cadetblue;
+  border-radius: 2px;
+}

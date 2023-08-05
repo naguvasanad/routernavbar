@@ -1,0 +1,19 @@
+
+  .polaroid {
+    width: 284px;
+    padding: 10px 10px 20px 10px;
+    border: 1px solid #BFBFBF;
+    background-color: white;
+    box-shadow: 10px 10px 5px #aaaaaa;
+    margin-left: 20px;
+  }
+  
+ .rotate_right {
+    float: left;
+   transform: rotate(7deg);
+ } 
+  
+ .rotate_left {
+    float: left;
+   transform: rotate(-8deg);
+  }
